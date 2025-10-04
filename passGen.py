@@ -11,7 +11,7 @@ def generate_password(length=12):
 while True:
     print('\n-----Password Generator-----')
     try:
-        length = int(input("Enter password length (min 6, max 50): "))
+        length = int(input("\nEnter password length (min 6, max 50): "))
         if length < 6 or length > 50:
             print("\nInvalid length! Please choose between 6 and 50.")
             continue
